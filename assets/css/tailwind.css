@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera, Edge */
+}
+
+body{
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(89, 139, 192);
+  background-color: black;
+  background-color: #6F1D1B;
+
+}
+
+@font-face {
+  font-family: "marFont";
+  src: url("~/assets/fonts/font2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "davfont";
+  src: url("~/assets/fonts/font1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
