@@ -4,13 +4,13 @@ import headerSidebar from './components/headerSidebar.vue';
 import footerComponent from './components/footer.vue';
 
 useSeoMeta({
-  title: 'Davì Pizza & Pasta',
-  ogTitle: 'MAREDIL - Esperti in Ristrutturazioni e Soluzioni Edili',
-  description: 'Maredil Costruzioni offre servizi di ristrutturazione, manutenzione edifici, cappotti termici, cartongessi, pitture, pavimenti e coperture per privati e aziende.',
-  ogDescription: 'Affidati a Maredil per ristrutturazioni e manutenzioni di qualità. Specializzati in cappotti termici, cartongessi, pitture, pavimenti e coperture.',
-  ogImage: 'https://maredilcostruzioni.it/img/maredilSeo.png',
-  ogSiteName: 'MAREDIL Costruzioni',
-  ogUrl: 'https://maredilcostruzioni.it',
+  title: 'Davì Pizza & Pasta - Il Gusto Autentico Italiano',
+  ogTitle: 'Davì Pizza & Pasta - Gusto e Tradizione Italiana',
+  description: 'Scopri il sapore autentico della vera pizza italiana da Davì Pizza & Pasta. Ingredienti freschi, impasti artigianali e passione per la cucina tradizionale.',
+  ogDescription: 'Da Davì Pizza & Pasta assapori pizze cotte a legna, pasta fresca e specialità italiane preparate con ingredienti selezionati. Vieni a trovarci o ordina online!',
+  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/daviCompressoBianco.svg', // metti la tua immagine
+  ogSiteName: 'Davì Pizza & Pasta',
+  ogUrl: 'https://xn--davpizzaepasta-nlb.ch/',
 })
 useHead({
   link: [
