@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
 import lottie from 'lottie-web';
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 // Registriamo il plugin ScrollTrigger di GSAP
 gsap.registerPlugin(ScrollTrigger);
