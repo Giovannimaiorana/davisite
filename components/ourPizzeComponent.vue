@@ -107,7 +107,8 @@
     width: 50%;
     height: 100%;
 
-    background-image: url(/img/backpiatti.jpg);
+    background-image: url(/img/davide.jpg);
+    background-size: cover;
 }
 .containerRightRight{
     width: 50%;
