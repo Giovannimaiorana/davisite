@@ -249,7 +249,7 @@ const _B1pp1ErrMiv7e8v8ZM3ydzqCPY08yRROrIsoPxbIXE = (function(nitro) {
 
 const rootDir = "/Users/giovannimaiorana/Desktop/davisite";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"google-site-verification","content":"cl8nc5tJS2_VIfzcUU04OXLLHnCZnPpKTnr_IENJT00"}],"link":[],"style":[],"script":[],"noscript":[]};
 
 const appRootTag = "div";
 

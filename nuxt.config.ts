@@ -10,4 +10,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      meta: [
+        {
+          name: 'google-site-verification',
+          content: 'cl8nc5tJS2_VIfzcUU04OXLLHnCZnPpKTnr_IENJT00',
+        },
+      ],
+    },
+  },
 })
