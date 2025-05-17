@@ -11,17 +11,17 @@ interface Pasta {
   image: string
 }
 const pizzas: Pizza[] = [
-  { name: 'ROMANA', image: '/img/pizza1.svg' },
-  { name: 'MARGHERITA', image: '/img/pizza2.svg' },
-  { name: 'BELLA FRESCA', image: '/img/pizza3.svg' },
-  { name: 'NORMA', image: '/img/pizza4.svg' },
-  { name: 'TONNO', image: '/img/pizza5.svg' },
-  { name: 'MORTAZZA', image: '/img/pizza6.svg' },
-  { name: 'SALMONE', image: '/img/pizza7.svg' },
-  { name: 'ORTOLANA', image: '/img/pizza8.svg' },
-  { name: 'DAVI', image: '/img/pizza9.svg' },
-  { name: 'MARINARA', image: '/img/pizza10.svg' },
-  { name: 'DIAVOLA', image: '/img/pizza11.svg' },
+  { name: 'ROMANA', image: '/img/pizza1.webp' },
+  { name: 'MARGHERITA', image: '/img/pizza2.webp' },
+  { name: 'BELLA FRESCA', image: '/img/pizza3.webp' },
+  { name: 'NORMA', image: '/img/pizza4.webp' },
+  { name: 'TONNO', image: '/img/pizza5.webp' },
+  { name: 'MORTAZZA', image: '/img/pizza6.webp' },
+  { name: 'SALMONE', image: '/img/pizza7.webp' },
+  { name: 'ORTOLANA', image: '/img/pizza8.webp' },
+  { name: 'DAVI', image: '/img/pizza9.webp' },
+  { name: 'MARINARA', image: '/img/pizza10.webp' },
+  { name: 'DIAVOLA', image: '/img/pizza11.webp' },
   
 ]
 
@@ -39,11 +39,11 @@ function prevPizza() {
 }
 //PASTA 
 const pastas: Pasta[] = [
-  { name: 'LASAGNA', image: '/img/pasta1.svg' },
-  { name: 'AMATRICIANA', image: '/img/pasta2.svg' },
-  { name: 'CARBONARA', image: '/img/pasta3.svg' },
-  { name: 'GNOCCHI ALLA SORRENTINA', image: '/img/pasta4.svg' },
-  { name: 'TARTURFO & FUNGHI', image: '/img/pasta5.svg' },
+  { name: 'LASAGNA', image: '/img/pasta1.webp' },
+  { name: 'AMATRICIANA', image: '/img/pasta2.webp' },
+  { name: 'CARBONARA', image: '/img/pasta3.webp' },
+  { name: 'GNOCCHI ALLA SORRENTINA', image: '/img/pasta4.webp' },
+  { name: 'TARTURFO & FUNGHI', image: '/img/pasta5.webp' },
 ]
 const currentIndexPasta = ref(0)
 
@@ -79,31 +79,24 @@ const pastaName = ref<HTMLElement | null>(null)
   if (imageEl) {
     gsap.fromTo(
       imageEl,
-      { opacity: 0, scale: 0.95, y: 30 },
-      { opacity: 1, scale: 1, y: 0, duration: 0.6, ease: 'sine.out' }
+      { opacity: 0, scale: 0, y: 20 },
+      { opacity: 1, scale: 1, y: 0, duration: 0.6, ease: 'power3.out' }
     )
   }
 
   if (textEl) {
     gsap.fromTo(
       textEl,
-      { opacity: 0, y: 15 },
-      { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out', delay: 0.1 }
+      { opacity: 0, y: 10 },
+      { opacity: 1, y: 0, duration: 0.5, ease: 'sine.out', delay: 0.1 }
     )
   }
 })
-// Anima il cambio di immagine con GSAP
-watch([currentPizza, currentPasta, selectedCategory], async () => {
-  await nextTick()
-
-  const el = selectedCategory.value === 'pizza' ? pizzaImage.value : pastaImage.value
-  if (!el) return
-
-  gsap.fromTo(
-    el,
-    { opacity: 0, scale: 0, y: 20 },
-    { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: 'power3.out' }
-  )
+onMounted(() => {
+  pizzas.concat(pastas).forEach(item => {
+    const img = new Image()
+    img.src = item.image
+  })
 })
 </script>
 
@@ -158,8 +151,8 @@ watch([currentPizza, currentPasta, selectedCategory], async () => {
                  
                 </div>
                 <div class="containerRightRightBottom">
-                    <img   ref="pizzaImage"  v-if="selectedCategory=== 'pizza'" class="pizza" :src="currentPizza.image"alt="">
-                    <img   ref="pastaImage" v-if="selectedCategory=== 'pasta'" class="pizza" :src="currentPasta.image"alt="">
+                    <img   ref="pizzaImage"  v-show="selectedCategory === 'pizza'" class="pizza" :src="currentPizza.image"alt="">
+                    <img   ref="pastaImage" v-show="selectedCategory === 'pasta'" class="pizza" :src="currentPasta.image"alt="">
                     <p   ref="pizzaName" v-if="selectedCategory=== 'pizza'" class="nomePizza text-3xl lg:text-4xl xl:text-6xl ml-3 text-white font-dav sp"> {{ currentPizza.name }}</p>
                     <p    ref="pastaName"v-if="selectedCategory=== 'pasta'" class="nomePizza text-3xl lg:text-4xl xl:text-6xl ml-3 text-white font-dav sp"> {{ currentPasta.name }}</p>
                 </div>
