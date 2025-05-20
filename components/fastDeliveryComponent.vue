@@ -170,6 +170,34 @@
   flex-direction: column;
   justify-content: center;
 }
+.containerMaterie{
+  width: 100%;
+
+  height:100%;
+  background-color: black;
+
+  background-image: url(/img/impasto.webp);
+  background-size: cover;
+  background-attachment:scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+.containerMaterie2{
+  width: 100%;
+
+
+  height: 200vh;
+  background-color: black;
+  background-image: url(/img/bonappeti.webp);
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: initial;
+  background-repeat: no-repeat;
+
+
+}
 }
 @media (max-width: 460px) {
   .containerLeft{
@@ -188,31 +216,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.containerMaterie{
-  width: 100%;
 
-  height:100%;
-  background-color: black;
-
-  background-image: url(/img/impasto.webp);
-  background-size: cover;
-  background-attachment:scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-.containerMaterie2{
-  width: 100%;
-
-
-  height: 200vh;
-  background-color: black;
-  background-image: url(/img/bonappeti.webp);
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: initial;
-  background-repeat: no-repeat;
-
-}
 }
 </style>
