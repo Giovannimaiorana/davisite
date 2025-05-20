@@ -8,7 +8,7 @@ useSeoMeta({
   ogTitle: 'Davì Pizza & Pasta - Gusto e Tradizione Italiana',
   description: 'Scopri il sapore autentico della vera pizza italiana da Davì Pizza & Pasta. Ingredienti freschi, impasti artigianali e passione per la cucina tradizionale.',
   ogDescription: 'Da Davì Pizza & Pasta assapori pizze cotte a legna, pasta fresca e specialità italiane preparate con ingredienti selezionati. Vieni a trovarci o ordina online!',
-  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/daviCompressoBianco.svg', // metti la tua immagine
+  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/daviCompressoBianco.svg', 
   ogSiteName: 'Davì Pizza & Pasta',
   ogUrl: 'https://xn--davpizzaepasta-nlb.ch/',
 })

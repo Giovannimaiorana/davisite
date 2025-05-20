@@ -67,9 +67,7 @@ onMounted(() => {
     background-repeat: no-repeat;
 }
 
-.imglogo{
-    height: 400px;
-}
+
 .personalized2{
     color: rgb(89, 139, 192) ;
 }
@@ -113,10 +111,17 @@ onMounted(() => {
     color: white;
     margin-top: 20px;
 }
-
-@media (max-width: 768px) {
+.imglogo{
+    height: 280px;
+}
+@media (max-width: 950px) {
     .imglogo{
     height: 250px;
+}
+}
+@media (max-width: 768px) {
+    .imglogo{
+    height: 200px;
 } 
 }
 @media (max-width: 420px) {

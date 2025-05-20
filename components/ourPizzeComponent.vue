@@ -144,11 +144,11 @@ onMounted(() => {
                 <div v-if="selectedCategory==='pizza'" class="containerRightRightTop">
                     <p class="font-dav sp text-3xl lg:text-4xl xl:text-5xl font-bold text-right active cursor-pointer" @click="selectCategory('pizza')" >PIZZAS</p>
                     <p class="font-dav sp text-xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
+                    
                 </div>
                 <div v-if="selectedCategory==='pasta'" class="containerRightRightTop">
                     <p class="font-dav sp  text-3xl lg:text-4xl xl:text-5xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
                     <p class="font-dav sp text-xl font-bold text-right active cursor-pointer" @click="selectCategory('pizza')" >PIZZAS</p>
-                 
                 </div>
                 <div class="containerRightRightBottom">
                     <img   ref="pizzaImage"  v-show="selectedCategory === 'pizza'" class="pizza" :src="currentPizza.image"alt="">
@@ -161,9 +161,60 @@ onMounted(() => {
 
         </div>
     </div>
+    <!--container responsive-->
+
+    <div class="containerResponsive">
+        <div class="wrapperTitle">
+            <p class="font-bold text-white font-dav text-2xl lg:text-4xl xl:text-5xl sp text-left">QUELQUES-UNS <br> DE NOS PLATS</p>
+        </div>
+        <div class="wrapperSelection">
+            <div v-if="selectedCategory==='pizza'">
+                    <p class="font-dav sp text-3xl lg:text-4xl xl:text-5xl font-bold text-right active cursor-pointer" @click="selectCategory('pizza')" >PIZZAS</p>
+                    <p class="font-dav sp text-xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
+                </div>
+            <div v-if="selectedCategory==='pasta'">
+                    <p class="font-dav sp  text-3xl lg:text-4xl xl:text-5xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
+                    <p class="font-dav sp text-xl font-bold text-right active cursor-pointer" @click="selectCategory('pizza')" >PIZZAS</p>
+                </div>
+        </div>
+        <div class="wrapperSection">
+            <div class="containerNumber">
+                <p v-if="selectedCategory=== 'pizza'"  class="font-dav text-4xl font-bold text-white">{{ String(currentIndex + 1).padStart(2, '0') }}</p>
+                <p v-if="selectedCategory=== 'pasta'"  class="font-dav text-4xl font-bold text-white">{{ String(currentIndexPasta + 1).padStart(2, '0') }}</p>
+            </div>
+            <div class="arrowleft">
+                <img  v-if="selectedCategory=== 'pizza'" @click="prevPizza"  class="cursor-pointer arrow" src="/img/arrowLeft.svg" alt="">
+                <img  v-if="selectedCategory=== 'pasta'" @click="prevPasta"  class="cursor-pointer arrow" src="/img/arrowLeft.svg" alt="">
+            </div>
+            <div class="arrowRight">
+                <img   v-if="selectedCategory=== 'pizza'" @click="nextPizza" class="cursor-pointer arrow" src="/img/arrowRight.svg" alt="">
+                <img  v-if="selectedCategory=== 'pasta'" @click="nextPasta" class="cursor-pointer arrow" src="/img/arrowRight.svg" alt="">
+            </div>
+            <div class="nomePizzaMob">
+                <p   ref="pizzaName" v-if="selectedCategory=== 'pizza'" class="nomePizza text-3xl lg:text-4xl xl:text-6xl ml-3 text-white font-dav sp text-right"> {{ currentPizza.name }}</p>
+                <p    ref="pastaName"v-if="selectedCategory=== 'pasta'" class="nomePizza text-3xl lg:text-4xl xl:text-6xl ml-3 text-white font-dav sp text-right"> {{ currentPasta.name }}</p>
+            </div>
+       
+      
+            <div class="containerPizza">
+                <img   ref="pizzaImage"  v-show="selectedCategory === 'pizza'" class="pizzamobile" :src="currentPizza.image"alt="">
+                <img   ref="pastaImage" v-show="selectedCategory === 'pasta'" class="pizzamobile" :src="currentPasta.image"alt="">
+            </div>
+            
+
+        </div>
+        <div class="ordina">
+            <p class="text-xs text-black font-dav spi">Commandez maintenant et dégustez-les chez vous !</p>
+            <p v-if="selectedCategory=== 'pasta'" class=" text-3xl lg:text-4xl xl:text-6xl ml-3 text-black font-dav sp text-center cursor-pointer mt-3">COMMANDEZ </p>
+        </div>
+
+    </div>
 </template>
 
 <style scoped>
+.containerResponsive{
+    display: none;
+}
 .wrapperPiatti{
     width: 100%;
     height: 700px;
@@ -297,19 +348,97 @@ onMounted(() => {
 }  
 }
 @media (max-width: 850px) {
-    .telephone{
-        display: none;
-    }
     .pizza{
     top: -120px;
     position: absolute;
     height: 280px;
 }  
-.containerRightLeft{
+.wrapperPiatti{
     display: none;
 }
 .containerRightRight{
     width: 100%;
+}
+.containerResponsive{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.wrapperTitle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    background-color: black;
+}
+.wrapperSection{
+    width: 100%;
+    height: auto;
+    background-color: #6F1D1B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+}
+.containerMob{
+    width: 100%;
+    height: 100%;
+
+}
+.wrapperSelection{
+    width: 100%;
+    height: auto;
+    background-color: #F5EBD9;
+    padding: 30px;
+
+}
+.pizzamobile{
+    width: 100%;
+}
+.containerPizza{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+.containerNumber{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.arrowleft{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+}
+.arrowRight{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+.nomePizzaMob{
+    position: absolute;
+    right: 30px;
+    bottom: 10%;
+    z-index: 40;
+}
+.arrow{
+    height: 20px;
+}
+.ordina{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #F5EBD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 }
 
