@@ -127,4 +127,27 @@ onMounted(() => {
     height: 200px;
 } 
 }
+@media screen and (max-width: 932px) and (orientation: landscape) {
+    .wrapperHome{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/jumbotron6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    z-index: 7;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+.imglogo{
+    height: 200px;
+} 
+}
 </style>
