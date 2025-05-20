@@ -377,7 +377,7 @@ onMounted(() => {
 }
 .wrapperSection{
     width: 100%;
-    height: auto;
+    height: 500px;
     background-color: #6F1D1B;
     display: flex;
     justify-content: center;
