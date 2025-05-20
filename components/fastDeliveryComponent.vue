@@ -86,7 +86,6 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  
 
 }
 .containerMaterie2{
@@ -188,6 +187,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.containerMaterie{
+  width: 100%;
+
+  height:100%;
+  background-color: black;
+
+  background-image: url(/img/impasto.webp);
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.containerMaterie2{
+  width: 100%;
+
+
+  height: 100%;
+  background-color: black;
+  background-image: url(/img/bonappeti.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 }
 </style>
