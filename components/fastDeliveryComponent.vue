@@ -34,7 +34,7 @@
 
         </div>
         <div class="containerRight">
-          <p class=" font-bold tracking-wider text-white text-2xl md:text-5xl font-bold text-black font-dav sp">INGREDIENTS DE <br>QUALITE</p>
+          <p class=" font-bold text-2xl md:text-5xl font-bold text-black font-dav sp">INGREDIENTS DE <br>QUALITE</p>
           <p class="font-dav text-xs mt-2 text-black sp">Nous selectionnons uniquement des produits frais, authentiques et de saison, rigoureusement choisis pour leur gout et leur origine. <br> Aucun compromis n’est fait sur la qualite <br> chaque ingredient reflete notre engagement envers l’excellence et la tradition culinaire.</p>
           <button class="buttonStyledark font-dav sp"> MENU</button>
         </div> 
