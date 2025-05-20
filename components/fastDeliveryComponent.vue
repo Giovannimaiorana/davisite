@@ -41,7 +41,7 @@
       </div>
       <div class="bloccoTransparent">
         <div>
-          <p class=" text-2xl md:text-8xl font-bold text-white font-dav sp">DECOUVREZ NOTRE MENU</p>
+          <p class=" text-2xl md:text-8xl font-bold text-white font-dav sp text-center">DECOUVREZ NOTRE MENU</p>
         </div>
 
         <button class="buttonStyle font-dav sp"> MENU </button>
@@ -196,7 +196,7 @@
 
   background-image: url(/img/impasto.webp);
   background-size: cover;
-
+  background-attachment:scroll;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -205,11 +205,12 @@
   width: 100%;
 
 
-  height: 100%;
+  height: 200vh;
   background-color: black;
   background-image: url(/img/bonappeti.webp);
   background-size: cover;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: initial;
   background-repeat: no-repeat;
 
 }
