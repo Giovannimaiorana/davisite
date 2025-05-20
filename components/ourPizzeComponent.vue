@@ -173,7 +173,7 @@ onMounted(() => {
                     <p class="font-dav sp text-xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
                 </div>
             <div v-if="selectedCategory==='pasta'">
-                    <p class="font-dav sp  text-3xl lg:text-4xl xl:text-5xl text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
+                    <p class="font-dav sp  text-3xl lg:text-4xl xl:text-5xl font-bold text-right cursor-pointer" @click="selectCategory('pasta')">PLATS DE PATES</p>
                     <p class="font-dav sp text-xl font-bold text-right active cursor-pointer" @click="selectCategory('pizza')" >PIZZAS</p>
                 </div>
         </div>

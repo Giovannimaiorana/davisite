@@ -68,9 +68,7 @@ onMounted(() => {
 }
 
 
-.personalized2{
-    color: rgb(89, 139, 192) ;
-}
+
 .overlay{
     position: absolute;
     width: 100%;

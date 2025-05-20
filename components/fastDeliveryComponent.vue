@@ -1,6 +1,6 @@
 <script lang="ts" setup></script>
 
-<template>
+<!--<template>
   <div class="bg-[#F5EBD9] py-10 px-6">
     <div class="flex flex-col md:flex-row gap-8 justify-between items-center max-w-6xl mx-auto color1">
       <div class="flex flex-col items-center text-center max-w-xs">
@@ -22,31 +22,172 @@
       </div>
     </div>
   </div>
-</template>
+</template>-->
+<template>
+  <div class="wrappercomponent">
+    <div class="fascia">
+      <p class="text-white text-center text-6xl">NOUS..</p>
+    </div>
+    <div class="containerMaterie">
+      <div class="blocco1">
+        <div class="containerLeft">
 
+        </div>
+        <div class="containerRight">
+          <p class=" font-bold tracking-wider text-white text-2xl md:text-5xl font-bold text-black font-dav sp">INGREDIENTS DE <br>QUALITE</p>
+          <p class="font-dav text-xs mt-2 text-black sp">Nous selectionnons uniquement des produits frais, authentiques et de saison, rigoureusement choisis pour leur gout et leur origine. <br> Aucun compromis n’est fait sur la qualite <br> chaque ingredient reflete notre engagement envers l’excellence et la tradition culinaire.</p>
+          <button class="buttonStyledark font-dav sp"> MENU</button>
+        </div> 
+      </div>
+      <div class="bloccoTransparent">
+        <div>
+          <p class=" text-2xl md:text-8xl font-bold text-white font-dav sp">DECOUVREZ NOTRE MENU</p>
+        </div>
+
+        <button class="buttonStyle font-dav sp"> MENU </button>
+      </div>
+      <div class="blocco1">
+
+</div>   
+
+
+    </div>
+
+
+    <div class="containerMaterie2">
+
+    </div>
+
+  </div>
+</template>
 <style scoped>
-.wrapperFast{
-    width: 100%;
-    height: 300px;
-    padding: 30px;
-    display: flex;
-    background-color: #F5EBD9;
+.wrappercomponent {
+  width: 100%;
+  height: auto;
+  background-color: black;
+
 }
-.containersection{
-    width: calc(100% / 3);
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.fascia{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.containersection img{
-    height: 150px;
+.containerMaterie{
+  width: 100%;
+
+  height:100%;
+  background-color: black;
+
+  background-image: url(/img/impasto.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
 }
-.sp{
-    letter-spacing: 5px;
+.containerMaterie2{
+  width: 100%;
+
+
+  height: 200vh;
+  background-color: black;
+  background-image: url(/img/bonappeti.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
-.sp{
-    letter-spacing: 3px;
+.blocco1{
+  width: 100%;
+  height: 500px;
+  background-color: #F5EBD9;
+  display: flex;
+}
+.bloccoTransparent{
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sp {
+  letter-spacing: 5px;
+}
+.buttonStyle{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 8px;
+    color: white;
+    margin-top: 20px;
+}
+.containerLeft{
+  width: 50%;
+  height: 100%;
+  background-image: url(/img/quality.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerRight{
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttonStyledark{
+  width: 200px;
+  border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 5px;
+    color: black;
+    margin-top: 20px;
+}
+.sp {
+  letter-spacing: 3px;
+}
+@media (max-width: 850px) {
+  .containerLeft{
+  width: 30%;
+  height: 100%;
+  background-image: url(/img/quality.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerRight{
+  width: 70%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+}
+@media (max-width: 460px) {
+  .containerLeft{
+  width: 10%;
+  height: 100%;
+  background-image: url(/img/quality.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.containerRight{
+  width: 80%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 }
 </style>
