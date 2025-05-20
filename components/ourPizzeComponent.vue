@@ -205,7 +205,7 @@ onMounted(() => {
         </div>
         <div class="ordina">
             <p class="text-xs text-black font-dav spi">Commandez maintenant et dégustez-les chez vous !</p>
-            <p v-if="selectedCategory=== 'pasta'" class=" text-3xl lg:text-4xl xl:text-6xl ml-3 text-black font-dav sp text-center cursor-pointer mt-3">COMMANDEZ </p>
+            <p class=" text-3xl lg:text-4xl xl:text-6xl ml-3 text-black font-dav sp text-center cursor-pointer mt-3">COMMANDEZ </p>
         </div>
 
     </div>
