@@ -47,14 +47,33 @@
         <button class="buttonStyle font-dav sp"> MENU </button>
       </div>
       <div class="blocco1">
+        <div class="containerRight1">
+          <p class=" font-bold text-2xl md:text-5xl font-bold text-black font-dav sp text-right"> L'ART DE LA PATE</p>
+          <p class="font-dav text-xs mt-2 text-black sp text-right">Une pate moelleuse, bien hydratee et maturee lentement pour garantir legerete, digestibilite et saveur authentique. Des farines de qualite, de l’eau, du sel et une touche de passion donnent naissance a une base parfaite, prete a devenir une pizza croustillante a l’exterieur et fondante a l’interieur.</p>
+          <div class="containerButton">
+            <button class="buttonStyledark font-dav sp"> MENU</button>
+          </div>
 
-</div>   
+        </div> 
+        <div class="containerLeft1">
+
+        </div>
+
+      </div>   
 
 
     </div>
 
 
     <div class="containerMaterie2">
+      <div class="containerTrasparent">
+        <p class=" text-2xl md:text-9xl font-bold text-white font-dav sp text-center"> <span class="text-xl md:text-4xl">VOTRE PIZZA PREFEREE A</span><br> DOMICILE</p>
+
+        <button class="buttonStyle font-dav sp"> MENU </button>
+      </div>
+      <div class="blocco2">
+
+      </div>   
 
     </div>
 
@@ -77,11 +96,9 @@
 }
 .containerMaterie{
   width: 100%;
-
   height:100%;
   background-color: black;
-
-  background-image: url(/img/impasto.webp);
+  background-image: url(/img/menula.webp);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -90,9 +107,7 @@
 }
 .containerMaterie2{
   width: 100%;
-
-
-  height: 200vh;
+  height: 100vh;
   background-color: black;
   background-image: url(/img/bonappeti.webp);
   background-size: cover;
@@ -106,6 +121,11 @@
   height: 500px;
   background-color: #F5EBD9;
   display: flex;
+}
+.blocco2{
+  width: 100%;
+  height: 30vh;
+  background-color: #6F1D1B;
 }
 .bloccoTransparent{
   width: 100%;
@@ -134,7 +154,23 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.containerLeft1{
+  width: 50%;
+  height: 100%;
+  background-image: url(/img/impasto.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .containerRight{
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerRight1{
   width: 50%;
   height: 100%;
   padding: 30px;
@@ -153,17 +189,45 @@
 .sp {
   letter-spacing: 3px;
 }
+.containerTrasparent{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerButton{
+  display: flex;
+  justify-content: flex-end;
+}
 @media (max-width: 850px) {
   .containerLeft{
-  width: 30%;
+  width: 25%;
   height: 100%;
   background-image: url(/img/quality.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+.containerLeft1{
+  width: 15%;
+  height: 100%;
+  background-image: url(/img/impasto.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .containerRight{
-  width: 70%;
+  width: 75%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerRight1{
+  width: 85%;
   height: 100%;
   padding: 30px;
   display: flex;
@@ -176,7 +240,7 @@
   height:100%;
   background-color: black;
 
-  background-image: url(/img/impasto.webp);
+  background-image: url(/img/pasta.webp);
   background-size: cover;
   background-attachment:scroll;
   background-position: center;
@@ -188,7 +252,7 @@
   width: 100%;
 
 
-  height: 200vh;
+  height: 100vh;
   background-color: black;
   background-image: url(/img/bonappeti.webp);
   background-size: cover;
@@ -209,7 +273,7 @@
   background-position: center;
 }
 .containerRight{
-  width: 80%;
+  width: 70%;
   height: 100%;
   padding: 30px;
   display: flex;

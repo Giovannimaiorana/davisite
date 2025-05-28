@@ -46,6 +46,9 @@ onMounted(() => {
     <div class="containerWho1">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5490.3113727432565!2d6.637876!3d46.524821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2f24b02637e1%3A0x35b3ec1c1f71dfb5!2sDavi%20Pizza%20%26%20Pasta!5e0!3m2!1sit!2sit!4v1746914677610!5m2!1sit!2sit" width="100%" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <div>
+        <footerComponent/>
+    </div>
 
 
     
