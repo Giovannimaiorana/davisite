@@ -36,7 +36,7 @@
         <div class="containerRight">
           <p class=" font-bold text-2xl md:text-5xl font-bold text-black font-dav sp">INGREDIENTS DE <br>QUALITE</p>
           <p class="font-dav text-xs mt-2 text-black sp">Nous selectionnons uniquement des produits frais, authentiques et de saison, rigoureusement choisis pour leur gout et leur origine. <br> Aucun compromis n’est fait sur la qualite <br> chaque ingredient reflete notre engagement envers l’excellence et la tradition culinaire.</p>
-          <button class="buttonStyledark font-dav sp"> MENU</button>
+       
         </div> 
       </div>
       <div class="bloccoTransparent">
@@ -44,15 +44,12 @@
           <p class=" text-2xl md:text-8xl font-bold text-white font-dav sp text-center">DECOUVREZ NOTRE MENU</p>
         </div>
 
-        <button class="buttonStyle font-dav sp"> MENU </button>
+        <button class="buttonStyle font-dav sp"><a href="https://mylightspeed.app/JNAIKJWW/C-ordering">MENU</a>  </button>
       </div>
       <div class="blocco1">
         <div class="containerRight1">
           <p class=" font-bold text-2xl md:text-5xl font-bold text-black font-dav sp text-right"> L'ART DE LA PATE</p>
           <p class="font-dav text-xs mt-2 text-black sp text-right">Une pate moelleuse, bien hydratee et maturee lentement pour garantir legerete, digestibilite et saveur authentique. Des farines de qualite, de l’eau, du sel et une touche de passion donnent naissance a une base parfaite, prete a devenir une pizza croustillante a l’exterieur et fondante a l’interieur.</p>
-          <div class="containerButton">
-            <button class="buttonStyledark font-dav sp"> MENU</button>
-          </div>
 
         </div> 
         <div class="containerLeft1">
@@ -69,7 +66,7 @@
       <div class="containerTrasparent">
         <p class=" text-2xl md:text-9xl font-bold text-white font-dav sp text-center"> <span class="text-xl md:text-4xl">VOTRE PIZZA PREFEREE A</span><br> DOMICILE</p>
 
-        <button class="buttonStyle font-dav sp"> MENU </button>
+        <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering">LIVRAISON</a>  </button>
       </div>
       <div class="blocco2">
 

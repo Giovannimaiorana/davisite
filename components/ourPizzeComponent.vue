@@ -107,7 +107,7 @@ onMounted(() => {
                 <p class="font-bold text-white font-dav text-3xl lg:text-4xl xl:text-5xl sp text-right">QUELQUES-UNS <br> DE NOS PLATS</p>
                 <p class="text-xs text-white font-dav spi">Commandez maintenant et dégustez-les chez vous !</p>
                 <div class="containerButton">
-                    <button class="buttonStyle font-dav sp"> COMMANDEZ</button>
+                    <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering">LIVRAISON</a></button>
                 </div>
 
             </div>
