@@ -156,5 +156,20 @@ width: 50%;
         width: 100%;
         align-items: center;
     }
+    .left{
+width: 50%;
+display: flex;
+justify-content:end; 
+margin-right: 15px;
+
+}
+.right{
+    width: 50%;
+
+}
+.containerTitle{
+    display: flex;
+    justify-content: center;
+}
 }
 </style>
