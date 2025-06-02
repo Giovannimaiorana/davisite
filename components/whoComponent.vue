@@ -25,6 +25,7 @@
     width: 100%;
     height: 600px;
     flex-direction: column;
+    background-color: #F5EBD9;
 }
 .contaierTitle{
     width: 100%;
@@ -83,7 +84,7 @@ color: black;
 
 }
 .containerRight{
-display: none;
+    width: 100%;
 }
 }
 </style>
