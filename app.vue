@@ -15,6 +15,14 @@ useSeoMeta({
 
 
 useHead({
+  meta: [
+    { property: 'og:title', content: 'Davì Pizza & Pasta - Le Goût Authentique Italien' },
+    { property: 'og:description', content: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.' },
+    { property: 'og:image', content: 'https://www.davìpizzaepasta.ch/img/favicon.png' },
+    { property: 'og:url', content: 'https://www.davìpizzaepasta.ch/' },
+    { property: 'og:site_name', content: 'Davì Pizza & Pasta' },
+    { property: 'og:type', content: 'website' }
+  ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' }
   ],
@@ -25,7 +33,7 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'Restaurant',
         'name': "Davì Pizza & Pasta",
-        "image": "https://xn--davpizzaepasta-nlb.ch/img/favicon.png",
+        "image": "https://www.davìpizzaepasta.ch/img/favicon.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Rue Dr César-Roux 9",
