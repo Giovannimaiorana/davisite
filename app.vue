@@ -8,24 +8,24 @@ useSeoMeta({
   ogTitle: 'Davì Pizza & Pasta - Goût et Tradition Italienne',
   description: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.',
   ogDescription: 'Chez Davì Pizza & Pasta, dégustez des pizzas, des pâtes fraîches et des spécialités italiennes préparées avec des ingrédients sélectionnés. Venez nous rendre visite ou commandez en ligne !',
-  ogImage: 'https://www.davìpizzaepasta.ch/img/favicon.png', 
+  ogImage: 'https://www.xn--davpizzaepasta-nlb.ch/img/favicon.png', 
   ogSiteName: 'Davì Pizza & Pasta',
-  ogUrl: 'https://www.davìpizzaepasta.ch/',
+  ogUrl: 'https://www.xn--davpizzaepasta-nlb.ch/',
 })
 
-
 useHead({
-  meta: [
-    { property: 'og:title', content: 'Davì Pizza & Pasta - Le Goût Authentique Italien' },
-    { property: 'og:description', content: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.' },
-    { property: 'og:image', content: 'https://www.davìpizzaepasta.ch/img/favicon.png' },
-    { property: 'og:url', content: 'https://www.davìpizzaepasta.ch/' },
-    { property: 'og:site_name', content: 'Davì Pizza & Pasta' },
-    { property: 'og:type', content: 'website' }
-  ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' }
   ],
+  meta: [
+    { property: 'og:title', content: 'Davì Pizza & Pasta - Le Goût Authentique Italien' },
+    { property: 'og:description', content: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.' },
+    { property: 'og:image', content: 'https://www.xn--davpizzaepasta-nlb.ch/img/favicon.png' },
+    { property: 'og:url', content: 'https://www.xn--davpizzaepasta-nlb.ch/' },
+    { property: 'og:site_name', content: 'Davì Pizza & Pasta' },
+    { property: 'og:type', content: 'website' }
+  ],
+
   script: [
     {
       type: 'application/ld+json',
@@ -33,7 +33,7 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'Restaurant',
         'name': "Davì Pizza & Pasta",
-        "image": "https://www.davìpizzaepasta.ch/img/favicon.png",
+        "image": "https://www.xn--davpizzaepasta-nlb.ch/img/favicon.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Rue Dr César-Roux 9",
@@ -42,7 +42,7 @@ useHead({
           "addressCountry": "CH"
         },
         'telephone': '0212176808',
-        'url': "https://xn--davpizzaepasta-nlb.ch/",
+        'url': "https://www.xn--davpizzaepasta-nlb.ch/",
         "servesCuisine": ["Italian", "Pizza", "Pasta"],
         'sameAs': [
           'https://www.instagram.com/davi_pizza_pasta?igsh=b3phMjdzeHU1aGtp'
