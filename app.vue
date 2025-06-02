@@ -4,19 +4,62 @@ import headerSidebar from './components/headerSidebar.vue';
 import footerComponent from './components/footer.vue';
 
 useSeoMeta({
-  title: 'Davì Pizza & Pasta - Il Gusto Autentico Italiano',
-  ogTitle: 'Davì Pizza & Pasta - Gusto e Tradizione Italiana',
-  description: 'Scopri il sapore autentico della vera pizza italiana da Davì Pizza & Pasta. Ingredienti freschi, impasti artigianali e passione per la cucina tradizionale.',
-  ogDescription: 'Da Davì Pizza & Pasta assapori pizze cotte a legna, pasta fresca e specialità italiane preparate con ingredienti selezionati. Vieni a trovarci o ordina online!',
-  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/daviCompressoBianco.svg', 
+  title: 'Davì Pizza & Pasta - Le Goût Authentique Italien',
+  ogTitle: 'Davì Pizza & Pasta - Goût et Tradition Italienne',
+  description: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.',
+  ogDescription: 'Chez Davì Pizza & Pasta, dégustez des pizzas, des pâtes fraîches et des spécialités italiennes préparées avec des ingrédients sélectionnés. Venez nous rendre visite ou commandez en ligne !',
+  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/favicon.png', 
   ogSiteName: 'Davì Pizza & Pasta',
   ogUrl: 'https://xn--davpizzaepasta-nlb.ch/',
 })
+
+
 useHead({
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/img/faviconMaredil.svg' }
+    { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Restaurant',
+        'name': "Davì Pizza & Pasta",
+        "image": "https://xn--davpizzaepasta-nlb.ch/img/favicon.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rue Dr César-Roux 9",
+          "addressLocality": "Lausanne",
+          "postalCode": "1005",
+          "addressCountry": "CH"
+        },
+        'telephone': '0212176808',
+        'url': "https://xn--davpizzaepasta-nlb.ch/",
+        "servesCuisine": ["Italian", "Pizza", "Pasta"],
+        'sameAs': [
+          'https://www.instagram.com/davi_pizza_pasta?igsh=b3phMjdzeHU1aGtp'
+        ],
+        "openingHours": [
+          "Mo 11:00-13:15",
+          "Mo 18:00-22:00",
+          "Tu 11:00-13:15",
+          "Tu 18:00-22:00",
+          "We 11:00-13:15",
+          "We 18:00-22:00",
+          "Th 11:00-13:15",
+          "Th 18:00-22:00",
+          "Fr 11:00-13:15",
+          "Fr 18:00-22:00",
+          "Sa 18:00-22:00",
+          "Su 18:00-22:00"
+        ],
+        'description': 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta.'
+      }) as any
+    } as any
   ]
 })
+
+
 
 const isMenuOpen = ref(false)
 const toggleMenu = () => {
