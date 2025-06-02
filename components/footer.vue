@@ -13,7 +13,7 @@ const openPrivacyPolicy = () => {
                 <img src="/img/daviCompressoBianco.svg" alt="">
             </div>
             <div class="mt-3 ml-4">
-                <p class=" text-xs text-white text-left"> <span class="font-bold">ADRESSE :</span> Rue Dr César-Roux 9 1005 Lausanne(CH)<br><span class="font-bold">TELEPHONE :</span> <a href="tel:+0212176808">021 217 68 08</a><br> <span class="font-bold">EMAIL :</span> Info.impollonia@gmail.com</p>
+                <p class=" text-xs text-white text-left"> <span class="font-bold">ADRESSE :</span> Rue Dr César-Roux 9 1005 Lausanne(CH)<br><span class="font-bold">TELEPHONE :</span> <a href="tel:0212176808">021 217 68 08</a><br> <span class="font-bold">EMAIL :</span> Info.impollonia@gmail.com</p>
                 <p class=" text-xs text-white text-left"> Politique de confidentialite</p>
             </div>
             <div>
