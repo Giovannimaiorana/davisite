@@ -8,9 +8,9 @@ useSeoMeta({
   ogTitle: 'Davì Pizza & Pasta - Goût et Tradition Italienne',
   description: 'Découvrez la saveur authentique de la vraie cuisine italienne chez Davì Pizza & Pasta. Ingrédients frais, pâtes artisanales et passion pour la cuisine traditionnelle.',
   ogDescription: 'Chez Davì Pizza & Pasta, dégustez des pizzas, des pâtes fraîches et des spécialités italiennes préparées avec des ingrédients sélectionnés. Venez nous rendre visite ou commandez en ligne !',
-  ogImage: 'https://xn--davpizzaepasta-nlb.ch/img/favicon.png', 
+  ogImage: 'https://www.davìpizzaepasta.ch/img/favicon.png', 
   ogSiteName: 'Davì Pizza & Pasta',
-  ogUrl: 'https://xn--davpizzaepasta-nlb.ch/',
+  ogUrl: 'https://www.davìpizzaepasta.ch/',
 })
 
 
