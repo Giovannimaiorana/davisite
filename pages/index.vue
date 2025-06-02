@@ -27,7 +27,7 @@ onMounted(() => {
            <!-- <p class="font-mar  text-7xl md:text-9xl text-center text-white spac">DAVI'</p>-->
            <img class="imglogo" loading="lazy" src="/img/daviCompressoBianco.svg" alt="">
             <p class=" font-bold mottoStyle text-md md:text-xl text-white text-center font-dav">La vraie cuisine italienne, chaque jour</p>
-            <button class="buttonStyle font-dav sp"><a href="https://mylightspeed.app/JNAIKJWW/C-ordering">LIVRAISON</a>  </button>
+            <button class="buttonStyle font-dav sp"><a href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">LIVRAISON</a>  </button>
             <div ref="animationContainer" class="animation mt-10"></div>
         </div>
     </div>

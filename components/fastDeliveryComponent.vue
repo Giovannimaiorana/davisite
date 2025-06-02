@@ -44,7 +44,7 @@
           <p class=" text-2xl md:text-8xl font-bold text-white font-dav sp text-center">DECOUVREZ NOTRE MENU</p>
         </div>
 
-        <button class="buttonStyle font-dav sp"><a href="https://mylightspeed.app/JNAIKJWW/C-ordering">MENU</a>  </button>
+        <button class="buttonStyle font-dav sp"><a href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">MENU</a>  </button>
       </div>
       <div class="blocco1">
         <div class="containerRight1">
@@ -66,7 +66,7 @@
       <div class="containerTrasparent">
         <p class=" text-2xl md:text-9xl font-bold text-white font-dav sp text-center"> <span class="text-xl md:text-4xl">VOTRE PIZZA PREFEREE A</span><br> DOMICILE</p>
 
-        <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering">LIVRAISON</a>  </button>
+        <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">LIVRAISON</a>  </button>
       </div>
       <div class="blocco2">
 
