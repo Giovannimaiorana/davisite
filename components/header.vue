@@ -17,14 +17,14 @@ const onHamburgerClick = () => {
         <div class="containerLogo">
             <NuxtLink to="/">  <img src="/img/daviCompressoBianco.svg" alt=""></NuxtLink>
         </div>
-        <div class="containerMenu">
+     <!--   <div class="containerMenu">
             <p class="text-white cursor-pointer font-bold font-dav text-xs sp ">À PROPOS DE NOUS</p>
             <p class="text-white cursor-pointer font-bold font-dav text-xs sp "><NuxtLink to="/service">NOS SERVICES</NuxtLink></p>
             <p class="text-white cursor-pointer font-bold font-dav text-xs sp ">CONTACTEZ-NOUS</p>
         </div>
         <div class="containerResponsive">
             <img   @click="onHamburgerClick" class="cursor-pointer" src="/img/hamburgerMenu2.svg" alt="">
-        </div>
+        </div>-->
     </div>
 </template>
 
