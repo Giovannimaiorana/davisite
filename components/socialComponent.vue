@@ -60,7 +60,7 @@ const goToInstagram = () => {
 <template>
     <div class="wrapperSocial">
         <div class="containerLeft">
-            <p class="font-dav text-white text-4xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-bold text-center md:text-right  "> UIVEZ-NOUS SUR <br> INSTAGRAM</p>
+            <p class="font-dav text-white text-4xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-bold text-center md:text-right  "> SUIVEZ-NOUS SUR <br> INSTAGRAM</p>
             <p class="font-dav text-white text-xs text-center">cliquer <span class="arroww">-------</span></p>
         </div>
         <div class="containerRight">

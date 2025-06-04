@@ -7,8 +7,8 @@
         </div>-->
         <div class="containerContent">
             <div class="containerLeft">
-                <p class=" font-dav sp text-5xl text-center md:text-right font-bold ">A PROPOS <br> DE NOUS</p>
-                <p class=" font-dav text-md line text-center md:text-right mt-4">Nous sommes deux frères originaires de Messine, élevés les mains dans la pâte et le cœur dans la cuisine familiale. De Messine à la Suisse, nous avons emporté avec nous le parfum du four allumé, la passion de la pizza et l’amour des pâtes faites comme autrefois. C’est ainsi qu’est née Davì : bien plus qu’une simple pizzeria, un coin de Sicile où chaque plat raconte une histoire faite de tradition, d’ingrédients authentiques et d’un accueil chaleureux. Qu’il s’agisse d’une pizza croustillante ou d’un plat de pâtes au goût sincère, chaque bouchée vous emmène en voyage dans notre terre natale. Nous avons uni notre expérience, nos racines et l’esprit de famille pour créer un lieu où l’on se sent vraiment chez soi.Bienvenue chez Davì – notre histoire, notre cuisine, notre Sicile.</p>
+                <p class=" font-dav sp text-5xl text-center md:text-right font-bold text-black">A PROPOS <br> DE NOUS</p>
+                <p class=" font-dav text-md line text-center md:text-right mt-4 text-black">Nous sommes deux frères originaires de Messine, élevés les mains dans la pâte et le cœur dans la cuisine familiale. De Messine à la Suisse, nous avons emporté avec nous le parfum du four allumé, la passion de la pizza et l’amour des pâtes faites comme autrefois. C’est ainsi qu’est née Davì : bien plus qu’une simple pizzeria, un coin de Sicile où chaque plat raconte une histoire faite de tradition, d’ingrédients authentiques et d’un accueil chaleureux. Qu’il s’agisse d’une pizza croustillante ou d’un plat de pâtes au goût sincère, chaque bouchée vous emmène en voyage dans notre terre natale. Nous avons uni notre expérience, nos racines et l’esprit de famille pour créer un lieu où l’on se sent vraiment chez soi.Bienvenue chez Davì – notre histoire, notre cuisine, notre Sicile.</p>
                 
             </div>
             <div class="containerRight">

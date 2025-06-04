@@ -1,0 +1,21 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "has": [
+          { "type": "host", "value": "xn--davpizzaepasta-nlb.ch" }
+        ],
+        "destination": "https://www.xn--davpizzaepasta-nlb.ch/$1",
+        "permanent": true
+      },
+      {
+        "source": "/(.*)",
+        "has": [
+          { "type": "scheme", "value": "http" }
+        ],
+        "destination": "https://www.xn--davpizzaepasta-nlb.ch/$1",
+        "permanent": true
+      }
+    ]
+  }
+  
