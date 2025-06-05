@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import footerComponent from '~/components/footer.vue';
+</script>
 
 <template>
 
@@ -42,8 +44,12 @@
              <p class=" text-md font-bold text-white font-dav sp text-right "> <span>Sur place </span> <span class=" text-sm">12 CHF</span> </p>
             </div>
         </div>
-        
+        <div>
+        <footerComponent/>
     </div>
+    </div>
+
+
 
 </template>
 
