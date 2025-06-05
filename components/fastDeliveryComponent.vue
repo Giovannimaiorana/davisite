@@ -288,4 +288,15 @@
 }
 
 }
+@media screen and (max-width: 932px) and (orientation: landscape) {
+  .bloccoTransparent{
+  display: none;
+}
+.none{
+  display: none;
+}
+.fascia{
+  display: none;
+}
+}
 </style>
