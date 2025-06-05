@@ -19,7 +19,7 @@ const onHamburgerClick = () => {
         </div>
         <div class="containerMenu">
             <a class="text-white cursor-pointer font-bold font-dav text-xs sp " href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">MENU</a>
-            <p class="text-white cursor-pointer font-bold font-dav text-xs sp "><NuxtLink to="/service">NOS MENUS</NuxtLink></p>
+            <p class="text-white cursor-pointer font-bold font-dav text-xs sp "><NuxtLink to="/menuamidi">NOS MENUS</NuxtLink></p>
         </div>
         <div class="containerResponsive">
             <img   @click="onHamburgerClick" class="cursor-pointer" src="/img/hamburgerMenu2.svg" alt="">

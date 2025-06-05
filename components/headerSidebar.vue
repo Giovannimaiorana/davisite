@@ -9,9 +9,8 @@ const isActive = (path: string) => route.path === path
 <template>
     <div class="continerHeader">
         <div class="containerMenu">
-            <p :class="[isActive('/service') ? 'active' : 'text-white', 'fext-white cursor-pointer font-bold font-dav sp']"><NuxtLink to="/service">SERVIZI</NuxtLink></p>
-            <p class="text-white cursor-pointer font-bold font-dav sp">CHI SIAMO</p>
-            <p class="text-white cursor-pointer font-bold font-dav sp">CONTATTI</p>
+            <a class="text-white cursor-pointer font-bold font-dav text-md sp " href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">MENU</a>
+            <p class="text-white cursor-pointer font-bold font-dav text-md sp "><NuxtLink to="/menuamidi">NOS MENUS</NuxtLink></p>
         </div>
 
     </div>
@@ -33,9 +32,9 @@ const isActive = (path: string) => route.path === path
     color: rgb(44, 90, 153);
 }
 .containerMenu p{
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
 
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.659);
 }
 .activeLanguage{
     color: #78f9ad;

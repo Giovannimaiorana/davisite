@@ -29,7 +29,7 @@
       <p class="text-white text-center text-6xl">NOUS..</p>
     </div>
     <div class="containerMaterie">
-      <div class="blocco1">
+      <div class="blocco1 none">
         <div class="containerLeft">
 
         </div>
@@ -62,11 +62,11 @@
     </div>
 
 
-    <div class="containerMaterie2">
+    <div class="containerMaterie2 none">
       <div class="containerTrasparent">
         <p class=" text-2xl md:text-9xl font-bold text-white font-dav sp text-center"> <span class="text-xl md:text-4xl">VOTRE PIZZA PREFEREE A</span><br> DOMICILE</p>
 
-        <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">LIVRAISON</a>  </button>
+        <button class="buttonStyle font-dav sp"> <a href="https://mylightspeed.app/JNAIKJWW/C-ordering"  target="_blank">COMMANDE</a>  </button>
       </div>
       <div class="blocco2">
 
@@ -276,6 +276,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.bloccoTransparent{
+  display: none;
+}
+.none{
+  display: none;
+}
+.fascia{
+  display: none;
 }
 
 }
